@@ -1,0 +1,48 @@
+body{
+	width: 780px;
+	background-color: #efffef;
+	font-family: verdana, sans;
+}
+.logo{
+	text-align: center;
+}
+.maisVendidos{
+	float: left;
+	width: 18%;
+	padding: 2px;
+	font-size: 13px;
+	text-align: center;
+}
+.main{
+	float: left;
+	width: 55%;
+	padding: 2px;
+	font-size: 13px;
+	text-align: left;
+}
+.aside{
+	float: left;
+	width: 25%;
+	font-size: 16px;
+	text-align: left;
+}
+.footer{
+	float: right;
+	width: 100%;
+}
+h3{
+	width: 100%;
+	font-size: 20px;
+	color: blue;
+	text-align: center;
+}
+h4{
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+	color: blue;
+	text-align: center;
+}
+table{
+	width: 100%;
+}
