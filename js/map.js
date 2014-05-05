@@ -6,8 +6,7 @@ var map;
 
 function initialize() {
     var mapOptions = {
-        zoom: 15,
-        mapTypeId: google.maps.MapTypeId.SATELLITE
+        zoom: 5
     };
     map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
