@@ -23,8 +23,6 @@ function initialize() {
                 content: 'Location found using HTML5.'
             });
 
-            alert(pos);
-
             map.setCenter(pos);
         }, function() {
             handleNoGeolocation(true);
