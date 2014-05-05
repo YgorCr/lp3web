@@ -1,3 +1,9 @@
+#map-canvas {
+	height: 100%;
+	margin: 0px;
+	padding: 0px
+}
+
 body{
 	width: 780px;
 	background-color: #efffef;
