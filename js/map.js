@@ -6,7 +6,8 @@ var map;
 
 function initialize() {
     var mapOptions = {
-        zoom: 15
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.SATELLITE
     };
     map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
@@ -20,7 +21,7 @@ function initialize() {
             var infowindow = new google.maps.InfoWindow({
                 map: map,
                 position: pos,
-                content: 'Location found using HTML5.'
+                content: 'Aqui!'
             });
 
             map.setCenter(pos);
