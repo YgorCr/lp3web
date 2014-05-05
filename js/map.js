@@ -7,7 +7,7 @@ var map;
 function initialize() {
     var mapOptions = {
         zoom: 5,
-        mapTypeId: google.maps.MapTypeId.SATELLITE
+        mapTypeId: google.maps.MapTypeId.HYBRID
     };
     map = new google.maps.Map(document.getElementById('map'),
     mapOptions);
